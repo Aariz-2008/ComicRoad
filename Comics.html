@@ -38,6 +38,9 @@
             height:1122;
             width: 794;
         }
+        #Preview{
+            border:0;
+        }
     </style>
 
     <!-- Bootstrap CSS -->
@@ -88,12 +91,19 @@
             </details>
         </div>
     </section>
-    <div class="container">
-    <section class="frame">
-        <h2>Preview</h2>
-        <iframe class="if" src="" frameborder="0" name="comics" width="794" height="1122"></iframe>
-    </section>
-</div>
+    <div class="container" id="Preview">
+        <div class="card text-center">
+            <div class="card-header">
+              Preview
+            </div>
+            <div class="card-body">
+                <div class="embed-responsive embed-responsive-1by1">
+                    <iframe class="embed-responsive-item" src="" name="comics"></iframe>
+                  </div>
+            </div>
+            
+          </div>
+   
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -107,5 +117,6 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
 </body>
+
 
 </html>
